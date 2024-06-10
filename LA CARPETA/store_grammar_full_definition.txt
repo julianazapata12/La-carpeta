@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Organization</title>
+</head>
+<body>
+    <h1>Example Organization</h1>
+    <div class="workgroups">
+        <div class="workgroup">
+            <h2>Workgroup</h2>
+            <table>
+                <tr><th>ID</th><th>First Name</th><th>Last Name</th><th>Email</th></tr>
+                <tr><td>1</td><td>First</td><td>Last</td><td>email1@example.com</td></tr>
+                <tr><td>2</td><td>First</td><td>Last</td><td>email2@example.com</td></tr>
+            </table>
+        </div>
+        <div class="workgroup">
+            <h2>Workgroup</h2>
+            <table>
+                <tr><th>ID</th><th>First Name</th><th>Last Name</th><th>Email</th></tr>
+                <tr><td>3</td><td>First</td><td>Last</td><td>email3@example.com</td></tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<store>       -> STORE {TITLE{%id%}CONTACTINFO{"str"}<warehouse><showroom>}
+
+<warehouse>   -> WAREHOUSE{<product_grp>}
+
+<product_grp> -> <product><product_grp>
+              -> Epsilon
+
+<product>     -> PRODUCT{PRDID{%id%}TITLE{"str"}DESC{"str"}PRICE{num}}
+
+<showroom>    -> SHOWROOM{<ids>}
+
+<ids>         -> id;<ids>
+<ids>         -> Epsilon
+
